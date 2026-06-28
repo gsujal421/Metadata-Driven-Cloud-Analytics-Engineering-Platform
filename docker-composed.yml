@@ -1,0 +1,8 @@
+services:
+  ecommerce:
+    build: .
+    container_name: ecommerce_pipeline
+
+    volumes:
+      - .:/app
+      - "C:/Users/sujal/.aws:/root/.aws"

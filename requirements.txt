@@ -1,0 +1,5 @@
+pandas 
+pathlib
+boto3
+pyarrow
+apache-airflow-providers-smtp
