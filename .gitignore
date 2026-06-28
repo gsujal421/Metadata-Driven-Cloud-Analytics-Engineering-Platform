@@ -1,0 +1,44 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+*.env
+
+# ==========================
+# Airflow Generated Files
+# ==========================
+airflow/logs/
+airflow/config/airflow.cfg
+airflow/airflow.db
+airflow/standalone_admin_password.txt
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Operating System
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Temporary Files
+# ==========================
+*.log
+*.tmp
